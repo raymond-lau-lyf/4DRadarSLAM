@@ -95,7 +95,7 @@ include_directories(
   ${PCL_INCLUDE_DIRS}
   ${catkin_INCLUDE_DIRS}
   ${GTSAM_INCLUDE_DIR}
-  "~/sensor_ws/devel/include"
+  "${PROJECT_SOURCE_DIR}/../../devel/include"
 )
 
 # nodelets
