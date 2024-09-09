@@ -13,6 +13,7 @@ Panels:
         - /imu_odom1/Shape1
         - /imu_odom_incre1/Shape1
         - /frame2frame1/Shape1
+        - /ground_truth1
         - /ground_truth1/Shape1
         - /orient_incre1/Shape1
       Splitter Ratio: 0.5778490900993347
@@ -431,14 +432,14 @@ Visualization Manager:
           Value: true
         Value: true
       Enabled: true
-      Keep: 1
+      Keep: 1000000000
       Name: ground_truth
       Position Tolerance: 0
       Queue Size: 10
       Shape:
         Alpha: 1
         Axes Length: 30
-        Axes Radius: 10
+        Axes Radius: 0.4000000059604645
         Color: 252; 233; 79
         Head Length: 0.30000001192092896
         Head Radius: 0.20000000298023224
@@ -547,7 +548,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 3155.92919921875
+      Distance: 4203.38427734375
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -555,9 +556,9 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: -34.33517074584961
-        Y: -832.7499389648438
-        Z: -124.40692901611328
+        X: 164.64645385742188
+        Y: -299.185302734375
+        Z: -124.05901336669922
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
@@ -565,7 +566,7 @@ Visualization Manager:
       Near Clip Distance: 0.009999999776482582
       Pitch: 1.5697963237762451
       Target Frame: map
-      Yaw: 0.19500379264354706
+      Yaw: 6.03818941116333
     Saved:
       - Class: rviz/ThirdPersonFollower
         Distance: 53.36624526977539
