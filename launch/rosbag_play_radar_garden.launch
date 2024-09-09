@@ -5,7 +5,7 @@
 <!-- <param name="/use_sim_time" value="true"/> -->
 
 <!-- paths to the rosbag files -->
-<arg name="path" default="/home/zhuge/datasets/Radar/"/>
+<arg name="path" default="/mnt/d/datasets/NTU4DRadLM/"/>
 
 <arg name = "file_1" default = "Yunnan_garden/garden_2022-02-03_0.bag"/>
 <arg name = "file_2" default = "Yunnan_garden/garden_2022-02-03_1.bag"/>
