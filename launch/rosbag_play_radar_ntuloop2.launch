@@ -20,7 +20,7 @@
     $(arg path)$(arg file_1)
     $(arg path)$(arg file_2)
     $(arg path)$(arg file_3)
-    --topic /radar_enhanced_pcl /rgb_cam/image_raw/compressed /barometer/filtered /vectornav/imu
+    --topic /radar_enhanced_pcl /rgb_cam/image_raw/compressed /thermal_cam/thermal_image/compressed /barometer/filtered /vectornav/imu
     ">
 </node>
 
