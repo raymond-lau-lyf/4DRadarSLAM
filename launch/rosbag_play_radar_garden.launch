@@ -11,8 +11,8 @@
 <arg name = "file_2" default = "Yunnan_garden/garden_2022-02-03_1.bag"/>
 <arg name = "file_3" default = "Yunnan_garden/garden_2022-02-03_2.bag"/>
 
-<arg name = "file_4" default = "yunnangarden_day/5-13/yunnangarden_2022-05-13_0.bag"/>
-<arg name = "file_5" default = "yunnangarden_day/5-13/yunnangarden_2022-05-13_1.bag"/>
+<arg name = "file_4" default = "garden/garden_2022-05-13_0.bag"/>
+<arg name = "file_5" default = "garden/garden_2022-05-13_1.bag"/>
 
 <arg name = "file_6" default = "yunnangarden_day/5-14/yunnangarden_2022-05-14_0.bag"/>
 <arg name = "file_7" default = "yunnangarden_day/5-14/yunnangarden_2022-05-14_1.bag"/>
